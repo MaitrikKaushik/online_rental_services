@@ -122,4 +122,24 @@
           </div>
         </div>
 
- 
+        <!-- Revenue Chart -->
+        <div class="card">
+          <div class="card-header">
+            <h2>Revenue Overview</h2>
+            <div class="card-actions">
+              <select id="revenue-timeframe">
+                <option value="week">Last 7 Days</option>
+                <option value="month" selected>Last 30 Days</option>
+                <option value="quarter">Last 90 Days</option>
+                <option value="year">Last 365 Days</option>
+              </select>
+            </div>
+          </div>
+          <div class="card-body">
+            <div id="revenue-chart" class="chart-container">
+              <canvas id="revenue-chart-canvas"></canvas>
+            </div>
+          </div>
+        </div>
+
+       
